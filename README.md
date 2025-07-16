@@ -6,36 +6,28 @@ This project implements several classic Monte Carlo techniques to estimate expec
 
 The project includes:
 
-π approximation via uniform random points in the unit square
+- π approximation via uniform random points in the unit square
 
-Monte Carlo integration on [0, 1] and 
-𝑅
-+
-×
-[
-0
-,
-1
-]
+- Monte Carlo integration on [0, 1] and 𝑅+×[0,1]
 
-Histogram construction for normal and chi-squared distributions
+- Histogram construction for normal and chi-squared distributions
 
-Markov chains and ergodic theorem demonstration
+- Markov chains and ergodic theorem demonstration
 
-1D Ising model with Metropolis dynamics
+- 1D Ising model with Metropolis dynamics
 
 ## Features
-Generic MonteCarlo template function
+- Generic MonteCarlo template function
 
-Accumulators for mean, variance (DoubleMeanVar)
+- Accumulators for mean, variance (DoubleMeanVar)
 
-Empirical histograms via Histogram class
+- Empirical histograms via Histogram class
 
-Simulation of χ² distributions
+- Simulation of χ² distributions
 
-Markov chains with 2 states and empirical visit statistics
+- Markov chains with 2 states and empirical visit statistics
 
-1D Ising model observable tracking at position 500
+- 1D Ising model observable tracking at position 500
 
 ## Project Structure
 
@@ -64,20 +56,13 @@ MonteCarlo_Cpp/
 
 
 ## Sample Outputs
-π approximation with confidence interval
+- π approximation with confidence interval
 
-Approximated integrals via Monte Carlo
+- Approximated integrals via Monte Carlo
 
-Histograms exported as .dat files for visualization
+- Histograms exported as .dat files for visualization
 
-Proportions of visits in Markov chains
+- Proportions of visits in Markov chains
 
-Estimation of 
-𝐸
-[
-𝑥
-500
-]
-​
-in Ising1D
+- Estimation of E[𝑥500] in Ising1D
 
