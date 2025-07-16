@@ -1,0 +1,10 @@
+# Executable
+montecarlo
+
+# Output files
+*.dat
+
+# Editor / system junk
+*.DS_Store
+*.swp
+*~
