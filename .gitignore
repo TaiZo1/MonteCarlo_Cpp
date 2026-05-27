@@ -8,3 +8,6 @@ montecarlo
 *.DS_Store
 *.swp
 *~
+
+# CMake build directory
+build/
