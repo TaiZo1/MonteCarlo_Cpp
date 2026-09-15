@@ -73,7 +73,7 @@ Tests cover moments, proposal normalization and symmetry, permutation preservati
 a known two-state MCMC target, closed-tour distances, annealing on a square and
 invalid inputs. They have no external dependencies.
 
-Alternatively, with CMake 3.15 or later:
+Alternatively, with CMake 3.20 or later:
 
 ```sh
 cmake -S . -B build/cmake -DCMAKE_BUILD_TYPE=Release

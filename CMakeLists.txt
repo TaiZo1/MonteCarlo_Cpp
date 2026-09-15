@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.20)
 project(MonteCarlo_Cpp LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
