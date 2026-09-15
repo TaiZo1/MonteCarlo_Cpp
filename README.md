@@ -1,8 +1,10 @@
-# Monte Carlo, MCMC & Simulated Annealing in C++
+# Monte Carlo, MCMC & Simulated Annealing — C++ Lab Exercise
 
-A compact C++20 project exploring the progression from **random sampling** to
-**biased sampling** to **optimization**, using the travelling salesperson problem
-(TSP). The implementation uses only the C++ standard library.
+This repository contains a **lab exercise completed as part of a course**,
+implementing Monte Carlo methods in C++20. The exercise explores the progression
+from **random sampling** to **biased sampling** to **optimization**, using the
+travelling salesperson problem (TSP). The implementation uses only the C++
+standard library.
 
 ## Approach
 
@@ -100,7 +102,8 @@ CMakeLists.txt             Optional CMake build and test integration
 
 ## Scope and limitations
 
-This is an educational experiment, not a benchmark or a proof of optimality.
+This lab exercise is intended to put the methods studied in class into practice.
+The results are illustrative and do not establish optimality or benchmark performance.
 The stages use different computational budgets. Finite MCMC runs may retain
 initialization bias; no convergence diagnostic is claimed. Annealing provides
 no finite-run guarantee of finding the global optimum.
