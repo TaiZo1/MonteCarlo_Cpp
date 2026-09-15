@@ -1,13 +1,10 @@
-# Executable
-montecarlo
-
-# Output files
+/build/
+*.exe
+*.o
+*.obj
+*.pdb
+.DS_Store
 *.dat
-
-# Editor / system junk
-*.DS_Store
 *.swp
 *~
-
-# CMake build directory
-build/
+montecarlo
